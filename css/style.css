@@ -1,0 +1,198 @@
+
+/* contol le header seulement */
+
+
+   header { 
+            z-index:100;
+            width: 100%;
+            height: 380px;
+            text-align: center;
+            position: relative;
+            background-attachment: fixed;
+            
+          }
+         /*MODIFIE LES IMAGE*/
+  #amzone {
+           width: 1000px;
+           height: 500px;
+           margin-left: 400px;
+          }
+  
+          h1 {
+        font-size: 50px;
+        color: rgb(244, 247, 244);
+      }/*Modidifie les image des iste d'interet.*/
+      #amzon{
+        display: block;
+        margin-left: 700px;
+        width: 300px;
+        height: 200px;
+       }
+       /*modifie le plan du site*/
+       .plan{ margin-left: 700px;
+        list-style-type: none;
+       }
+       .plan a{ display: block;
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+        padding:  20px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        background:white;
+      }
+
+       
+    
+    body { 
+          background-image: url("../image/Amazone.jpg");
+          background-position:center ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-color: rgb(82, 182, 143);
+          background-attachment: fixed;
+      }
+      /*forme de tout le paragraphe*/
+ .forme{
+    width: 1000px;
+    height: 100px;
+    text-align: justify;
+    margin-left: 400px;
+    color: rgb(227, 241, 241);
+    font-size: 25px;
+    
+   }
+ /*titre all page*/
+  .titre{width: 1000px;
+            height: 100px;
+            text-align: justify;
+            margin-left: 400px;
+            font-size: 50px;
+            color: rgb(244, 247, 244);}
+   
+
+   /*MODIFIE LE HEADER*/
+.header2 { 
+           text-align: center;
+           background-color: rgb(77, 233, 181);
+           border-radius: 35px; margin: auto;
+           width: 70%;
+           margin-top: 50px;
+           list-style-type: none;
+           margin:right 20px;
+           padding: 0px;
+         }
+/* disposition horizontale des elements  du menu*/
+.header2 li {
+             display: inline-block;
+             position: relative;
+             margin-left: 15px;
+             width: 200px;
+            }
+.header2 a {
+            /* on va transformer les lien en bloc pour les redimentioner*/
+            display: block;
+            width: 200px;
+            height: 30px;
+            line-height: 30px;
+            padding:  20px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+          }
+ 
+
+
+
+
+
+ /* modifie le footer*/
+ footer{
+       
+        background:rgb(11, 185, 49);
+        position:absolute;
+        bottom: auto;
+        width:100%;
+        padding-top:50px;
+        height:150px;
+        text-align: center;
+        border-radius: 34px;
+        
+        
+        }
+        /* ul du footer .foot*/
+ .foot li { display: inline-block;
+  position: relative;
+  margin-left: 15px;
+  width: 200px;
+  bottom: 30px;
+ 
+}
+/*modifie contacter nous*/
+
+
+
+  .foot a{
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      width: 200px;
+      height: 30px;
+      line-height: 30px;
+      padding:  20px 20px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  /* cela modifier les icone facebook, twitter, linkind*/
+   img {
+    height: 50px;
+  }
+  main{
+    position: absolute;
+    margin-left: 500px;
+  }
+   
+
+        .header2 li:hover {background-color: rgb(25, 190, 196);}
+        
+        /*modifier le FAQ*/
+        .accordion {
+            font-family: Arial, Tahoma, Verdana;
+            background-color: rgb(255, 255, 255); 
+            color: #525143;
+            cursor: pointer;
+            padding: 18px;
+            width: 40%;
+            margin-left: 500px;
+            border: none;
+            outline: none;
+            transition: 0.10s;
+            font-size: 1.2em;
+            text-align: center;
+            border-radius: 25px;
+           }
+
+.accordion:hover {
+                  background-color: #ccc;
+                 }
+.contact{
+  height: 80px;
+  border-radius: 65px;
+}
+.panel {
+        padding:  10px;
+        display: none;
+        overflow: hidden;
+        border-radius: 40px;
+        background-color: rgb(36, 219, 143);
+       }
+
+.panel p {
+          font-family: Tahoma, Verdana,  Arial;
+          font-size: 20px;
+          text-align: center;
+          
+         }

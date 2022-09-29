@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Amazoniene </title>
+   <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+  
+  <header>
+  <h1>La forêt Amazoniene</h1>
+  <nav>
+    <ul class="header2">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="../html/ecosystem.html">ecosysteme</a></li>
+       <li><a href="../html/peuple.html">Peuple</a></li>
+       <li><a href="../html/danger.html">Danger</a></li>
+       <li><a href="../html/humain.html">Menace-Humaine</a></li>
+     </ul>
+  </nav>
+</header>
+    
+ 
+
+   
+</main>
+
+<button class="accordion"> Quelle est le pire danger pour la foret amazonienne? </button>
+<div class="panel">
+     <p> L'humain <p>
+</div>
+
+<button class="accordion"> Quel est l'animal l'un des plus dangereux de l'amazonienne? </button>
+<div class="panel">
+     <p> L’anaconda géant <p>
+</div>
+
+<button class="accordion"> Pourquoi dit-on que l'amazonie est le poumon de la planet? </button>
+<div class="panel">
+     <p>Parce qu'elle produit plus de 20% de l’oxygène de notre planète . <p>
+</div>
+
+<button class="accordion"> Quelle est le fleuve le plus long du monde? </button>
+<div class="panel">
+     <p> le fleuve de l'amazonie avec ses  6 992 km. <p>
+</div>
+
+<button class="accordion"> Quelle est la tail de la foret amazonienne? </button>
+<div class="panel">
+     <p>La foret amazonienne a plus de 6,7 millions km². <p>
+</div>
+
+
+<script>
+       var acc = document.getElementsByClassName("accordion");
+       var i;
+       for (i = 0; i < acc.length; i++) 
+           {
+            acc[i].addEventListener("click", function() 
+                 {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                                                  panel.style.display = "none";
+                                                 } 
+            else {
+                  panel.style.display = "block";
+                 }
+           });
+                }
+ </script> 
+ <br>
+ <br>
+ <br>
+</main>
+<footer>
+     <nav >
+     <ul class="foot">
+       <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img class="contact" src="../image/contacter.jpg"  alt="contact"></a></li>
+       <li><a href="https://m.facebook.com/profile.php?id=413673852098902"target="blank" ><img src="../image/Facebook.png" alt="facebook" ></a></li>
+        <li><a href="https://twitter.com/JJeanclaudes"target="blank" ><img src="../image/124021.png" alt="twitter" ></a> </li>
+         <li><a href="https://www.linkedin.com/in/jeanclaudeson-osias-150192245/"target="blank" ><img src="../image/LinkedIn.png" alt="linkedin" > </a></li>
+         <li><a href="../html/FAQ.html">FAQ</a> </li>
+         <li><a href="../html/plan.html"> Plan-du-site</a></li>
+       <li><a href="../html/site d'Intéret.html"> Site-d'interèt</a></li>
+      <li><a href="../html/apropos.html"> Aprops</a></li>
+   </ul>
+     </nav>
+   </footer>       
+   </body>
+   </html>
